@@ -1,17 +1,15 @@
-export const metadata  = {
-    title: 'About',
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: 'SEO Title',
     description: 'SEO Description',
-    keywords: ['About Page', 'test', 'información'],
+    keywords: ['About Page','Gustavo','información','...'],
 };
 
 
-
-export default function AboutPage () {
+export default function AboutPage() {
     return (
-        <div>
-        <span className="text-7xl">Chochita</span>
-        </div>
-
+        <span className="text-7xl">About Page</span>
     )
 }
-
